@@ -1,0 +1,15 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "206dd907-aa61-4326-a269-66f39cfb89e6"
+  core: {}
+  editor:
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "ba06a6e4-4125-49d0-a94c-9af608472324"
+  "linter-sass-lint": {}
+  welcome:
+    showOnStartup: false

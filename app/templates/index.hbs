@@ -1,0 +1,10 @@
+<h3>Welcome...  Here you'll find all of life's most important questions. Ask away! </h3>
+
+
+<ul>
+  {{#each model as |question|}}
+     {{question-tile question=question destroyQuestion="destroyQuestion"}}
+  {{/each}}
+</ul>
+
+{{new-question save2="save3"}}

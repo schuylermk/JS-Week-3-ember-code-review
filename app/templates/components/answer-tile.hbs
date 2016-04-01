@@ -1,0 +1,10 @@
+
+<li>{{answers.author}}'s answer
+    {{#if isAnswerShowing }}
+      <p>{{answers.author}} says: <br>
+        {{answers.answer}}<button>Hide Answer</button></p>
+    {{else}}
+      <button>Display Answer</button>
+    {{/if}}
+    <button {{action 'delete' answer}}>Delete</button>  
+</li>
